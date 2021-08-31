@@ -30,8 +30,6 @@ Route::group(['middleware' => ['logged']], function(){
     Route::get('/', [HomeController::class, 'index']);
     Route::get('login', [AuthController::class, 'index'])->name('login');
     Route::post('login/store', [AuthController::class, 'store']);
-
-    Route::post('/pea', [AuthController::class, 'pea']);
 });
 
 Route::group(['middleware' => ['auth','accessSuperAdmin']], function(){

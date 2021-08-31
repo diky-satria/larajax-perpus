@@ -44,16 +44,4 @@ class AuthController extends Controller
 
         return redirect('login')->with('logout', 'Anda telah keluar');
     }
-
-    public function pea()
-    {
-        User::create([
-            'name' => request('nama'),
-            'email' => request('email'),
-            'password' => bcrypt('password'),
-            'role' => 'super admin'
-        ]);
-
-        return redirect('/');
-    }
 }
