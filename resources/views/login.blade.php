@@ -48,9 +48,13 @@
 </div>
 <div class="row">
    <div class="col">
-      <form action="">
+      <form action="{{ url('pea') }}" method="post">
+         @csrf
+         nama
          <input type="text" name="nama">
-         <input type="text" name="nama">
+         email
+         <input type="email" name="email">
+         <button type="submit" class="btn btn-primary">daftar</button>
       </form>
    </div>
 </div>

