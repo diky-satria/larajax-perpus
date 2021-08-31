@@ -33,7 +33,7 @@ class DashboardController extends Controller
         };
 
         $chartDoughnut = DB::SELECT("SELECT bukus.judul, SUM(pinjams.qty) AS jumlahPinjam
-                                FROM pinjams LEFT JOIN bukus ON pinjams.buku_id=bukus.id
+                                FROM pinjams JOIN bukus ON pinjams.buku_id=bukus.id
                                 GROUP BY judul ORDER BY jumlahPinjam DESC LIMIT 5");
 
         $judul = [];
