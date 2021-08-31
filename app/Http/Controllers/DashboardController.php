@@ -43,8 +43,6 @@ class DashboardController extends Controller
             $qty[] = $cd->qty;
         }
 
-        dd($judul, $qty);
-
         return response()->json([
             'mahasiswa' => $mahasiswa,
             'buku' => $buku,
