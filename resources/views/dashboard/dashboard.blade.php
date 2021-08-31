@@ -148,7 +148,6 @@
 <script>
    let overlay = document.getElementById('overlay-container')
    overlay.style.display = 'flex'
-   $(document).ready(function(){
       // ambil data
       $.ajax({
          type: 'GET',
@@ -234,6 +233,5 @@
             overlay.style.display = 'none'
          }
       })
-   })
 </script>
 @endpush
