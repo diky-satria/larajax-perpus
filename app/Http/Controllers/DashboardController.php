@@ -51,6 +51,7 @@ class DashboardController extends Controller
             'tgl' => array_reverse($tgl),
             'jumlah' => array_reverse($jumlah),
             'chartDoughnut' => $chartDoughnut,
+            'chartDoughnut2' => $chartDoughnut
         ]);
     }
 }
