@@ -161,8 +161,8 @@
             $('#count-collapse').append(response.collapse)
 
             // line chart
-            var ctx = document.getElementById('lineChart').getContext('2d');
-            var myChart = new Chart(ctx, {
+            var ctxLine = document.getElementById('lineChart').getContext('2d');
+            var myChartLine = new Chart(ctxLine, {
                type: 'line',
                data: {
                   labels: response.tgl,
@@ -199,8 +199,8 @@
             // doughnut chart
             let judul = response.chartDoughnut.map((x) => x.judul)
             let qty = response.chartDoughnut.map((x) => x.jumlahPinjam)
-            var ctx = document.getElementById('doughnutChart').getContext('2d');
-            var myChart = new Chart(ctx, {
+            var ctxdoughnut = document.getElementById('doughnutChart').getContext('2d');
+            var myChartDoughnut = new Chart(ctxdoughnut, {
                type: 'doughnut',
                data: {
                   labels: judul,
