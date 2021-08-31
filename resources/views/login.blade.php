@@ -46,4 +46,12 @@
       </div>
    </div>
 </div>
+<div class="row">
+   <div class="col">
+      <form action="">
+         <input type="text" name="nama">
+         <input type="text" name="nama">
+      </form>
+   </div>
+</div>
 @endsection
