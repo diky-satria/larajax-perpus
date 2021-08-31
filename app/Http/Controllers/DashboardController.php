@@ -36,12 +36,12 @@ class DashboardController extends Controller
                                 FROM pinjams LEFT JOIN bukus ON pinjams.buku_id=bukus.id
                                 GROUP BY judul ORDER BY jumlahPinjam DESC LIMIT 5");
 
-        // $judul = [];
-        // $qty = [];
-        // foreach($chartDoughnut as $cd){
-        //     $judul[] = $cd->buku->judul;
-        //     // $qty[] = $cd->jumlahPinjam;
-        // }
+        $judul = [];
+        $qty = [];
+        foreach($chartDoughnut as $cd){
+            $judul[] = $cd->buku->judul;
+            $qty[] = $cd->qty;
+        }
 
         return response()->json([
             'mahasiswa' => $mahasiswa,
@@ -51,7 +51,8 @@ class DashboardController extends Controller
             'tgl' => array_reverse($tgl),
             'jumlah' => array_reverse($jumlah),
             'chartDoughnut' => $chartDoughnut,
-            'chartDoughnut2' => $chartDoughnut
+            'judul' => $judul,
+            'qty' => $qty
         ]);
     }
 }
