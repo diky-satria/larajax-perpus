@@ -39,7 +39,7 @@ class DashboardController extends Controller
         $judul = [];
         $qty = [];
         foreach($chartDoughnut as $cd){
-            $judul[] = $cd->buku->judul;
+            $judul[] = $cd->judul;
             // $qty[] = $cd->qty;
         }
 
