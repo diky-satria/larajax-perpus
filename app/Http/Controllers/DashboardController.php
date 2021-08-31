@@ -50,7 +50,6 @@ class DashboardController extends Controller
             'collapse' => $collapse,
             'tgl' => array_reverse($tgl),
             'jumlah' => array_reverse($jumlah),
-            'chartDoughnut' => $chartDoughnut,
             'judul' => $judul,
             'qty' => $qty
         ]);
