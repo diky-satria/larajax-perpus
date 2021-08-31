@@ -160,6 +160,42 @@
             $('#count-jurusan').append(response.jurusan)
             $('#count-collapse').append(response.collapse)
 
+            // line chart
+            // var ctxLine = document.getElementById('lineChart').getContext('2d');
+            // var myChartLine = new Chart(ctxLine, {
+            //    type: 'line',
+            //    data: {
+            //       labels: response.tgl,
+            //       datasets: [{
+            //             label: 'Jumlah Buku dipinjam',
+            //             data: response.jumlah,
+            //             borderColor: 'red',
+            //             borderWidth: 1,
+            //             pointBackgroundColor: 'red',
+            //             tension: 0.5,
+            //          }]
+            //    },
+            //    options: {
+            //       scales: {
+            //          y: {
+            //          beginAtZero: true
+            //          }
+            //       },
+            //       plugins: {
+            //             title: {
+            //                display: true,
+            //                text: 'Peminjaman 15 hari terakhir',
+            //                padding: {
+            //                   top: 10,
+            //                   bottom: 30
+            //                }
+            //             }
+            //       },
+            //       responsive: true
+            //    }
+            // })
+            // akhir line chart
+
             // doughnut chart
             let judul = response.chartDoughnut.map((x) => x.judul)
             let qty = response.chartDoughnut.map((x) => x.jumlahPinjam)
@@ -196,44 +232,6 @@
                }
             })
             // akhir doughnut chart
-
-            // line chart
-            var ctxLine = document.getElementById('lineChart').getContext('2d');
-            var myChartLine = new Chart(ctxLine, {
-               type: 'line',
-               data: {
-                  labels: response.tgl,
-                  datasets: [{
-                        label: 'Jumlah Buku dipinjam',
-                        data: response.jumlah,
-                        borderColor: 'red',
-                        borderWidth: 1,
-                        pointBackgroundColor: 'red',
-                        tension: 0.5,
-                     }]
-               },
-               options: {
-                  scales: {
-                     y: {
-                     beginAtZero: true
-                     }
-                  },
-                  plugins: {
-                        title: {
-                           display: true,
-                           text: 'Peminjaman 15 hari terakhir',
-                           padding: {
-                              top: 10,
-                              bottom: 30
-                           }
-                        }
-                  },
-                  responsive: true
-               }
-            })
-            // akhir line chart
-
-            
 
             overlay.style.display = 'none'
          }
