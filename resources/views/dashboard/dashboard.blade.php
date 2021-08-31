@@ -201,7 +201,7 @@
             let qty = response.chartDoughnut.map((x) => x.jumlahPinjam)
             var ctxdoughnut = document.getElementById('doughnutChart').getContext('2d');
             var myChartDoughnut = new Chart(ctxdoughnut, {
-               type: 'doughnut',
+               type: 'pie',
                data: {
                   labels: judul,
                   datasets: [{
