@@ -40,7 +40,10 @@ class DashboardController extends Controller
         $qty = [];
         foreach($chartDoughnut as $cd){
             $judul[] = $cd->judul;
+            $qty[] = $cd->jumlahPinjam;
         }
+
+        dd($judul, $qty);
 
         return response()->json([
             'mahasiswa' => $mahasiswa,
@@ -50,7 +53,8 @@ class DashboardController extends Controller
             'tgl' => array_reverse($tgl),
             'jumlah' => array_reverse($jumlah),
             'chartDoughnut' => $chartDoughnut,
-            'judul' => $judul
+            'judul' => $judul,
+            'qty' => $qty
         ]);
     }
 }

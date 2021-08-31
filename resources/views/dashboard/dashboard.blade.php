@@ -198,17 +198,17 @@
 
             // doughnut chart
             // let judul = response.chartDoughnut.map((x) => x.judul)
-            let qty = response.chartDoughnut.map((y) => y.jumlahPinjam)
+            // let qty = response.chartDoughnut.map((y) => y.jumlahPinjam)
             console.log(response)
             // console.log(judul)
-            console.log(qty)
+            // console.log(qty)
             var ctxdoughnut = document.getElementById('doughnutChart').getContext('2d');
             var myChartDoughnut = new Chart(ctxdoughnut, {
                type: 'doughnut',
                data: {
                   labels: response.judul,
                   datasets: [{
-                     data: qty,
+                     data: response.qty,
                      backgroundColor: [
                         'rgb(255, 99, 132)',
                         'rgb(54, 162, 235)',
