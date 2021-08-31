@@ -148,17 +148,19 @@
 <script>
    let overlay = document.getElementById('overlay-container')
    overlay.style.display = 'flex'
+
+   window.onload = function(){
       // ambil data
       $.ajax({
          type: 'GET',
          url: 'dashboard/ambilData',
          success: function(response){
-
+   
             $('#count-mahasiswa').append(response.mahasiswa)
             $('#count-buku').append(response.buku)
             $('#count-jurusan').append(response.jurusan)
             $('#count-collapse').append(response.collapse)
-
+   
             // line chart
             var ctx = document.getElementById('lineChart').getContext('2d');
             var myChart = new Chart(ctx, {
@@ -194,7 +196,7 @@
                }
             })
             // akhir line chart
-
+   
             // doughnut chart
             let judul = response.chartDoughnut.map((x) => x.judul)
             let qty = response.chartDoughnut.map((x) => x.jumlahPinjam)
@@ -229,9 +231,10 @@
                }
             })
             // akhir doughnut chart
-
+   
             overlay.style.display = 'none'
          }
       })
+   }
 </script>
 @endpush
