@@ -206,9 +206,9 @@
             var myChartDoughnut = new Chart(ctxdoughnut, {
                type: 'doughnut',
                data: {
-                  labels: qty,
+                  labels: response.judul,
                   datasets: [{
-                     data: qty,
+                     data: response.qty,
                      backgroundColor: [
                         'rgb(255, 99, 132)',
                         'rgb(54, 162, 235)',
