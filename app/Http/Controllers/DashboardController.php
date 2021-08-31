@@ -25,7 +25,7 @@ class DashboardController extends Controller
 
         $lineChart = DB::SELECT("SELECT tgl_peminjaman, SUM(jumlah) jumlah FROM transaksis 
                                 GROUP BY tgl_peminjaman ORDER BY tgl_peminjaman DESC LIMIT 15");
-        $tgl = [];
+        $tgl = []; 
         $jumlah = [];
         foreach($lineChart as $lc){
             $tgl[] = $lc->tgl_peminjaman;

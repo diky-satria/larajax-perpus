@@ -144,7 +144,7 @@
 @endsection
 
 @push('js')
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+
 <script>
    let overlay = document.getElementById('overlay-container')
    overlay.style.display = 'flex'
