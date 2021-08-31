@@ -161,39 +161,39 @@
             $('#count-collapse').append(response.collapse)
 
             // line chart
-            // var ctxLine = document.getElementById('lineChart').getContext('2d');
-            // var myChartLine = new Chart(ctxLine, {
-            //    type: 'line',
-            //    data: {
-            //       labels: response.tgl,
-            //       datasets: [{
-            //             label: 'Jumlah Buku dipinjam',
-            //             data: response.jumlah,
-            //             borderColor: 'red',
-            //             borderWidth: 1,
-            //             pointBackgroundColor: 'red',
-            //             tension: 0.5,
-            //          }]
-            //    },
-            //    options: {
-            //       scales: {
-            //          y: {
-            //          beginAtZero: true
-            //          }
-            //       },
-            //       plugins: {
-            //             title: {
-            //                display: true,
-            //                text: 'Peminjaman 15 hari terakhir',
-            //                padding: {
-            //                   top: 10,
-            //                   bottom: 30
-            //                }
-            //             }
-            //       },
-            //       responsive: true
-            //    }
-            // })
+            var ctxLine = document.getElementById('lineChart').getContext('2d');
+            var myChartLine = new Chart(ctxLine, {
+               type: 'line',
+               data: {
+                  labels: response.tgl,
+                  datasets: [{
+                        label: 'Jumlah Buku dipinjam',
+                        data: response.jumlah,
+                        borderColor: 'red',
+                        borderWidth: 1,
+                        pointBackgroundColor: 'red',
+                        tension: 0.5,
+                     }]
+               },
+               options: {
+                  scales: {
+                     y: {
+                     beginAtZero: true
+                     }
+                  },
+                  plugins: {
+                        title: {
+                           display: true,
+                           text: 'Peminjaman 15 hari terakhir',
+                           padding: {
+                              top: 10,
+                              bottom: 30
+                           }
+                        }
+                  },
+                  responsive: true
+               }
+            })
             // akhir line chart
 
             // doughnut chart
@@ -205,7 +205,6 @@
                data: {
                   labels: judul,
                   datasets: [{
-                     label: 'My First Dataset',
                      data: qty,
                      backgroundColor: [
                         'rgb(255, 99, 132)',
