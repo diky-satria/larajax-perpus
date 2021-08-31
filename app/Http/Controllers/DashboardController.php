@@ -32,15 +32,15 @@ class DashboardController extends Controller
             $jumlah[] = $lc->jumlah;
         };
 
-        $chartDoughnut = DB::SELECT("SELECT bukus.judul, SUM(pinjams.qty) AS jumlahPinjam
+        $chartDoughnut = DB::SELECT("SELECT bukus.judul, SUM(pinjams.qty) qty
                                 FROM pinjams JOIN bukus ON pinjams.buku_id=bukus.id
-                                GROUP BY judul ORDER BY jumlahPinjam DESC LIMIT 5");
+                                GROUP BY judul ORDER BY qty DESC LIMIT 5");
 
         $judul = [];
         $qty = [];
         foreach($chartDoughnut as $cd){
             $judul[] = $cd->judul;
-            $qty[] = $cd->jumlahPinjam;
+            $qty[] = $cd->qty;
         }
 
         dd($judul, $qty);
