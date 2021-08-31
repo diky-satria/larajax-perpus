@@ -40,7 +40,7 @@ class DashboardController extends Controller
         // $qty = [];
         // foreach($chartDoughnut as $cd){
         //     $judul[] = $cd->buku->judul;
-        //     $qty[] = $cd->jumlahPinjam;
+        //     // $qty[] = $cd->jumlahPinjam;
         // }
 
         return response()->json([
