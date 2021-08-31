@@ -204,7 +204,7 @@
             var myChartDoughnut = new Chart(ctxdoughnut, {
                type: 'doughnut',
                data: {
-                  labels: judul,
+                  labels: qty,
                   datasets: [{
                      data: qty,
                      backgroundColor: [
