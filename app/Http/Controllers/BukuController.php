@@ -23,7 +23,7 @@ class BukuController extends Controller
                                     return $button;
                                 })
                                 ->addColumn('gambar', function($data){
-                                    $gambar = 'public/assets/gambar/'. $data->gambar;
+                                    $gambar = 'http://lajaxpus.herokuapp.com/public/assets/gambar/'. $data->gambar;
                                     return "<img src='".$gambar."' width='80' height='50' style='border-radius:8px;'>";
                                 })
                                 ->rawColumns(['gambar','opsi'])
