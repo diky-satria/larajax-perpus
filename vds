@@ -1,0 +1,245 @@
+* [33mcommit 1c5bc6202de07c8319a15dc047cc4018fc43e152[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Thu Sep 30 00:26:42 2021 +0700
+[31m|[m 
+[31m|[m     membuat logic upload gambar buku, custom helper, dan modif css
+[31m|[m 
+* [33mcommit 7c23164fffa05c14e7e24ec16dcb962217a27a71[m[33m ([m[1;31mheroku/master[m[33m)[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 10:23:08 2021 +0700
+[31m|[m 
+[31m|[m     gagal
+[31m|[m 
+* [33mcommit e2631dca65d64c755ebfd7381c43bb543bff269a[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 10:20:48 2021 +0700
+[31m|[m 
+[31m|[m     memperbaiki link gambar lagi
+[31m|[m 
+* [33mcommit 8960c9d4027d69f7e65352b92c74b9dfd06d86ed[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 10:18:41 2021 +0700
+[31m|[m 
+[31m|[m     memperbaiki url gambar
+[31m|[m 
+* [33mcommit db62baa3a2e41fd5b57b909702c3a9ffea0e4f09[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:41:45 2021 +0700
+[31m|[m 
+[31m|[m     doughnut chart berhasil diperbaiki, masalahnya di query sql, jangan pakai AS di qty nya
+[31m|[m 
+* [33mcommit 035db5ffc55015d63ddfe6ece1b3e7f9047760ac[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:38:20 2021 +0700
+[31m|[m 
+[31m|[m     asdas
+[31m|[m 
+* [33mcommit 01775dfc7689d176b3974916700438f5302349e0[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:36:39 2021 +0700
+[31m|[m 
+[31m|[m     heroku anjir
+[31m|[m 
+* [33mcommit 34ee7282de7d4ad25b734f0558d78d4aae50d1d2[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:32:59 2021 +0700
+[31m|[m 
+[31m|[m     mm
+[31m|[m 
+* [33mcommit e3f139d79abeb1836266928607cdb454d281cd77[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:28:37 2021 +0700
+[31m|[m 
+[31m|[m     ghdf
+[31m|[m 
+* [33mcommit 40ce583962c893fd7d0c72343eb05c342156ce67[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:16:53 2021 +0700
+[31m|[m 
+[31m|[m     dfg
+[31m|[m 
+* [33mcommit 08bfd953d3e1929809e57fc71342817cdde58697[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:14:47 2021 +0700
+[31m|[m 
+[31m|[m     ads
+[31m|[m 
+* [33mcommit ed1b23b294a8a9631cf42eeac815872d86769b47[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:12:25 2021 +0700
+[31m|[m 
+[31m|[m     asda
+[31m|[m 
+* [33mcommit 95ab3c21cc27e2a14fdea411dbc53cbdb5786071[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:10:03 2021 +0700
+[31m|[m 
+[31m|[m     rs
+[31m|[m 
+* [33mcommit da506a2fd07bd026b31257af3f0162ae64fe76ea[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:03:16 2021 +0700
+[31m|[m 
+[31m|[m     memperbaiki lagi
+[31m|[m 
+* [33mcommit a70abcab90ae21dbc40f5b80ee7730c327e68356[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 02:01:27 2021 +0700
+[31m|[m 
+[31m|[m     etst3
+[31m|[m 
+* [33mcommit 53948fae88144cda95205e312508a9c0e7681a23[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:59:56 2021 +0700
+[31m|[m 
+[31m|[m     test2
+[31m|[m 
+* [33mcommit 9c96c37e2f929eed9fd4ab6fa89097fa11765ef4[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:58:27 2021 +0700
+[31m|[m 
+[31m|[m     test
+[31m|[m 
+* [33mcommit 4815289cab41bfd8f8b860edaa86ecdf323d9d15[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:55:23 2021 +0700
+[31m|[m 
+[31m|[m     console.log judul
+[31m|[m 
+* [33mcommit 9cc1da3499188aba1ccdb44992639dbbd90d80a1[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:52:55 2021 +0700
+[31m|[m 
+[31m|[m     masih memperbaiki chart doughnut
+[31m|[m 
+* [33mcommit c74157930b65c79a0473b266b08939139f3c52b0[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:49:52 2021 +0700
+[31m|[m 
+[31m|[m     memperbaiki qty
+[31m|[m 
+* [33mcommit e46ccc8d0e9a5dfe60442ce81fc18e8d932827c4[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:47:55 2021 +0700
+[31m|[m 
+[31m|[m     memperbaiki chart doughnut
+[31m|[m 
+* [33mcommit d463d03b18fdf0cd909cb2cc638a0e574ad825c6[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:35:39 2021 +0700
+[31m|[m 
+[31m|[m     mengubah qty dougnut chart menjadi string
+[31m|[m 
+* [33mcommit d772ee591e6d116c48e43d3138426aa79acded1f[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:31:01 2021 +0700
+[31m|[m 
+[31m|[m     mengubah jumlah di doughnut chart menjadi parseint
+[31m|[m 
+* [33mcommit 1fc529d003b04bf7d609f48778ad497b4a15c54c[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:26:24 2021 +0700
+[31m|[m 
+[31m|[m     meliahat isi semua response
+[31m|[m 
+* [33mcommit bf53dbcc1eaa59b7a50e2e13ee2cbda800c46b0c[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:24:51 2021 +0700
+[31m|[m 
+[31m|[m     melihat data qty dengan console log
+[31m|[m 
+* [33mcommit 70114579c110bf8a32acb26d82f5a215ef7ede77[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:22:57 2021 +0700
+[31m|[m 
+[31m|[m     mengganti dougnut chart menjadi line chart
+[31m|[m 
+* [33mcommit 76b2c23bef5c38180a05857430afce3f086f17ec[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:20:07 2021 +0700
+[31m|[m 
+[31m|[m     mengembalian chart line
+[31m|[m 
+* [33mcommit 093257c8a017e0b18f3e7d3789e69e60467bf9c9[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:15:10 2021 +0700
+[31m|[m 
+[31m|[m     mengganti doughnut chart ke pie chart
+[31m|[m 
+* [33mcommit 42af80ba42d6d548d7ff505bce2f001e41923df8[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:12:59 2021 +0700
+[31m|[m 
+[31m|[m     menghilangkan dahulu chart line
+[31m|[m 
+* [33mcommit 552339e724228f87eab2191a3356ea29e3816594[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:07:24 2021 +0700
+[31m|[m 
+[31m|[m     mengubah urutan chart
+[31m|[m 
+* [33mcommit 94dbb2ce727e3ac83025a7118dd76ca71e71bb38[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 01:04:40 2021 +0700
+[31m|[m 
+[31m|[m     mengganti variable chart agar tidak sama
+[31m|[m 
+* [33mcommit 4d4eba7022fbdebdd385735f8c2af18cf701ab06[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 00:59:18 2021 +0700
+[31m|[m 
+[31m|[m     menambahkan warna pada dougnut chart
+[31m|[m 
+* [33mcommit a29876a6a79a159ef5b56184cd2b65e2b7527aab[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 00:56:57 2021 +0700
+[31m|[m 
+[31m|[m     menambahkan window.onload di dashboard
+[31m|[m 
+* [33mcommit 555abf61a9248eaa368a4dc10e2bda34f9d89886[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 00:54:47 2021 +0700
+[31m|[m 
+[31m|[m     menghapus $ doument di dashboard
+[31m|[m 
+* [33mcommit 5262a4c98c5302686949d582b06d721c37f2feea[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 00:48:35 2021 +0700
+[31m|[m 
+[31m|[m     mengganti link cdn chart js
+[31m|[m 
+* [33mcommit 80a0c50ebed4c0d3ba1aae4a215d2c3771161ed9[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 00:36:01 2021 +0700
+[31m|[m 
+[31m|[m     memindahkan link cdn chart js dari template1 ke dashboard
+[31m|[m 
+* [33mcommit 06649aaeaced6d58bf66a4547760ef00abf4f897[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Wed Sep 1 00:33:26 2021 +0700
+[31m|[m 
+[31m|[m     memperbaiki chart yang tidak muncul setelah di deploy heroku
+[31m|[m 
+* [33mcommit 2937b3c39f56281b5aa79dfed5a407e54c5c341f[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Tue Aug 31 23:11:30 2021 +0700
+[31m|[m 
+[31m|[m     menghapus pendaftaran super admin
+[31m|[m 
+* [33mcommit 311bc6e2d3259eb3bbee54c4231caef65e8482a6[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Tue Aug 31 22:50:06 2021 +0700
+[31m|[m 
+[31m|[m     membuat logic pendaftaran super admin
+[31m|[m 
+* [33mcommit f6cc1852d1fe0aaf52f3753cc5b0b8b1b838de56[m
+[31m|[m Author: diky-satria <dikysr123456@gmail.com>
+[31m|[m Date:   Tue Aug 31 22:41:39 2021 +0700
+[31m|[m 
+[31m|[m     membuat daftar super admin pertama kali
+[31m|[m 
+* [33mcommit 67931d97077404729f014c83f966921da12be3ce[m
+  Author: diky-satria <dikysr123456@gmail.com>
+  Date:   Tue Aug 31 22:18:45 2021 +0700
+  
+      deploy heroku
