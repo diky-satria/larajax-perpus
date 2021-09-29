@@ -1,6 +1,6 @@
 <?php 
 
-	function kode_random($length){
+	function kode_random($length){ 
 		$data = "123456";
 		$string = "PJ-";
 

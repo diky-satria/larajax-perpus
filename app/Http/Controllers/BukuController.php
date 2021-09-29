@@ -19,7 +19,7 @@ class BukuController extends Controller
                                 ->addColumn('opsi', function($buku){
                                     $button = "<button class='btn btn-sm btn-info ms-1 lihat-buk' id='".$buku->id."' title='Lihat' data-bs-toggle='modal' data-bs-target='#modal-buk-det'><i class='fas fa-eye'></i></button>";
                                     $button .= "<button class='btn btn-sm btn-success ms-1 edit-buk' id='".$buku->id."' title='Edit' data-bs-toggle='modal' data-bs-target='#modal-buk-edi'><i class='fas fa-edit'></i></button>";
-                                    $button .= "<button class='btn btn-sm btn-danger ms-1 hapus-buk' id='".$buku->id."' title='Hapus'><i class='fas fa-trash-alt'></i></button>";
+                                   $button .= "<button class='btn btn-sm btn-danger ms-1 hapus-buk' id='".$buku->id."' title='Hapus'><i class='fas fa-trash-alt'></i></button>";
                                     return $button;
                                 })
                                 ->addColumn('gambar', function($data){
